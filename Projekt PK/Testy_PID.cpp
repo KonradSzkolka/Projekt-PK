@@ -42,16 +42,20 @@ void test_RegulatorP_brakPobudzenia()
 	try
 	{
 		// Przygotowanie danych:
-		RegulatorPID instancjaTestowa(0.5);
+		std::vector<double> A = { -0.4 };
+		std::vector<double> B = { 0.6 };
+		size_t delay = 1;
+		ModelARX model(A, B, delay);
+		RegulatorPID instancjaTestowa(model,0.5);
 		constexpr size_t LICZ_ITER = 30;
 		std::vector<double> sygWe(LICZ_ITER);      // pobudzenie modelu (tu same 0)
 		std::vector<double> spodzSygWy(LICZ_ITER); // spodziewana sekwencja wy (tu same 0)
 		std::vector<double> faktSygWy(LICZ_ITER);  // faktyczna sekwencja wy
 
 		// Symulacja modelu:
-
+		double measuredValue = 0.0;
 		for (int i = 0; i < LICZ_ITER; i++)
-			faktSygWy[i] = instancjaTestowa.symuluj(sygWe[i]);
+			faktSygWy[i] = instancjaTestowa.symuluj(sygWe[i],measuredValue);
 
 		// Walidacja poprawności i raport:
 		if (porownanieSekwencji(spodzSygWy, faktSygWy))
@@ -76,7 +80,11 @@ void test_RegulatorP_skokJednostkowy()
 	try
 	{
 		// Przygotowanie danych:
-		RegulatorPID instancjaTestowa(0.5);
+		std::vector<double> A = { -0.4 };
+		std::vector<double> B = { 0.6 };
+		size_t delay = 1;
+		ModelARX model(A, B, delay);
+		RegulatorPID instancjaTestowa(model,0.5);
 		constexpr size_t LICZ_ITER = 30;
 		std::vector<double> sygWe(LICZ_ITER);      // pobudzenie modelu 
 		std::vector<double> spodzSygWy(LICZ_ITER); // spodziewana sekwencja wy 
@@ -88,8 +96,9 @@ void test_RegulatorP_skokJednostkowy()
 		spodzSygWy = { 0.0, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5 };
 
 		// Symulacja modelu:
+		double measuredValue = 0.0;
 		for (int i = 0; i < LICZ_ITER; i++)
-			faktSygWy[i] = instancjaTestowa.symuluj(sygWe[i]);
+			faktSygWy[i] = instancjaTestowa.symuluj(sygWe[i],measuredValue);
 
 		// Walidacja poprawności i raport:
 		if (porownanieSekwencji(spodzSygWy, faktSygWy))
@@ -114,7 +123,11 @@ void test_RegulatorPI_skokJednostkowy_1()
 	try
 	{
 		// Przygotowanie danych:
-		RegulatorPID instancjaTestowa(0.5,1.0);
+		std::vector<double> A = { -0.4 };
+		std::vector<double> B = { 0.6 };
+		size_t delay = 1;
+		ModelARX model(A, B, delay);
+		RegulatorPID instancjaTestowa(model,0.5,1.0);
 		constexpr size_t LICZ_ITER = 30;
 		std::vector<double> sygWe(LICZ_ITER);      // pobudzenie modelu 
 		std::vector<double> spodzSygWy(LICZ_ITER); // spodziewana sekwencja wy 
@@ -126,8 +139,9 @@ void test_RegulatorPI_skokJednostkowy_1()
 		spodzSygWy = { 0, 1.5, 2.5, 3.5, 4.5, 5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5, 12.5, 13.5, 14.5, 15.5, 16.5, 17.5, 18.5, 19.5, 20.5, 21.5, 22.5, 23.5, 24.5, 25.5, 26.5, 27.5, 28.5, 29.5 };
 
 		// Symulacja modelu:
+		double measuredValue = 0.0;
 		for (int i = 0; i < LICZ_ITER; i++)
-			faktSygWy[i] = instancjaTestowa.symuluj(sygWe[i]);
+			faktSygWy[i] = instancjaTestowa.symuluj(sygWe[i],measuredValue);
 
 		// Walidacja poprawności i raport:
 		if (porownanieSekwencji(spodzSygWy, faktSygWy))
@@ -152,7 +166,11 @@ void test_RegulatorPI_skokJednostkowy_2()
 	try
 	{
 		// Przygotowanie danych:
-		RegulatorPID instancjaTestowa(0.5, 10.0);
+		std::vector<double> A = { -0.4 };
+		std::vector<double> B = { 0.6 };
+		size_t delay = 1;
+		ModelARX model(A, B, delay);
+		RegulatorPID instancjaTestowa(model,0.5, 10.0);
 		constexpr size_t LICZ_ITER = 30;
 		std::vector<double> sygWe(LICZ_ITER);      // pobudzenie modelu 
 		std::vector<double> spodzSygWy(LICZ_ITER); // spodziewana sekwencja wy 
@@ -164,8 +182,9 @@ void test_RegulatorPI_skokJednostkowy_2()
 		spodzSygWy = { 0, 0.6, 0.7, 0.8, 0.9, 1, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9, 2, 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8, 2.9, 3, 3.1, 3.2, 3.3, 3.4 };
 
 		// Symulacja modelu:
+		double measuredValue = 0.0; // Początkowa wartość regulowana
 		for (int i = 0; i < LICZ_ITER; i++)
-			faktSygWy[i] = instancjaTestowa.symuluj(sygWe[i]);
+			faktSygWy[i] = instancjaTestowa.symuluj(sygWe[i], measuredValue);
 
 		// Walidacja poprawności i raport:
 		if (porownanieSekwencji(spodzSygWy, faktSygWy))
@@ -190,7 +209,11 @@ void test_RegulatorPID_skokJednostkowy()
 	try
 	{
 		// Przygotowanie danych:
-		RegulatorPID instancjaTestowa(0.5, 10.0, 0.2);
+		std::vector<double> A = { -0.4 };
+		std::vector<double> B = { 0.6 };
+		size_t delay = 1;
+		ModelARX model(A, B, delay);
+		RegulatorPID instancjaTestowa(model,0.5, 10.0, 0.2);
 		constexpr size_t LICZ_ITER = 30;
 		std::vector<double> sygWe(LICZ_ITER);      // pobudzenie modelu 
 		std::vector<double> spodzSygWy(LICZ_ITER); // spodziewana sekwencja wy 
@@ -202,8 +225,9 @@ void test_RegulatorPID_skokJednostkowy()
 		spodzSygWy = { 0, 0.8, 0.7, 0.8, 0.9, 1, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9, 2, 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8, 2.9, 3, 3.1, 3.2, 3.3, 3.4 };
 
 		// Symulacja modelu:
+		double measuredValue = 0.0;
 		for (int i = 0; i < LICZ_ITER; i++)
-			faktSygWy[i] = instancjaTestowa.symuluj(sygWe[i]);
+			faktSygWy[i] = instancjaTestowa.symuluj(sygWe[i],measuredValue);
 
 		// Walidacja poprawności i raport:
 		if (porownanieSekwencji(spodzSygWy, faktSygWy))
@@ -231,6 +255,7 @@ int main()
 	test_RegulatorPID_skokJednostkowy();
 
 }
+
 
 #endif
 
