@@ -9,6 +9,6 @@ int main()
     int a;
     int b;
     double c = 4;
-    std::cout << c;
+    cout << c;
 }
 
