@@ -1,4 +1,4 @@
 ﻿  Projekt PK.cpp
-C:\Users\korek\source\repos\Projekt-PK\Projekt PK\Projekt PK.cpp(8,9): warning C4101: "a": lokalna zmienna, do której nie istnieje odwołanie
-C:\Users\korek\source\repos\Projekt-PK\Projekt PK\Projekt PK.cpp(9,9): warning C4101: "b": lokalna zmienna, do której nie istnieje odwołanie
-  Projekt PK.vcxproj -> C:\Users\korek\source\repos\Projekt-PK\Projekt PK\x64\Debug\Projekt PK.exe
+C:\Users\Michał\Documents\GitHub\Projekt-PK\Projekt PK\Projekt PK.cpp(9,9): warning C4101: "a": lokalna zmienna, do której nie istnieje odwołanie
+C:\Users\Michał\Documents\GitHub\Projekt-PK\Projekt PK\Projekt PK.cpp(10,9): warning C4101: "b": lokalna zmienna, do której nie istnieje odwołanie
+  Projekt PK.vcxproj -> C:\Users\Michał\Documents\GitHub\Projekt-PK\Projekt PK\x64\Debug\Projekt PK.exe
