@@ -1,10 +1,10 @@
-﻿#include <iostream>
+﻿#include "Projekt PK.h"
 
-using namespace std;
+#ifdef MAINPROJEKTU
 
 int main()
 {
-    std::cout << "Michal Wstawaj Zesrales sie!\n";
+    std::cout << "Wstalem XD\n";
 
     int a;
     int b;
@@ -12,3 +12,4 @@ int main()
     cout << c;
 }
 
+#endif // MAINPROJEKTU

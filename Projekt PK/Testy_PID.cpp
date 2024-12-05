@@ -1,11 +1,13 @@
-#include <iostream>
-#include <fstream>
-#include <vector>
-#include <iomanip>
+
+#include "RegulatorPID.h"
+
+#ifdef TESTPID
 
 #define DEBUG
 
-#include "RegulatorPID.h"
+#endif // TESTPID
+
+
 
 #ifdef DEBUG
 

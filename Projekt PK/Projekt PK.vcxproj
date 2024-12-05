@@ -128,6 +128,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Projekt PK.cpp" />
+    <ClCompile Include="Testy_ARX.cpp" />
+    <ClCompile Include="Testy_PID.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ModelARX.h" />
+    <ClInclude Include="Projekt PK.h" />
+    <ClInclude Include="RegulatorPID.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,10 +1,13 @@
 // TU includy:
 
-#include <iostream>
-#include <iomanip>
 #include "ModelARX.h"
 
-#define DEBUG  // ustaw na MAIN aby skompilować program docelowy / ustaw na DEBUG aby skompilować program testujacy 
+#ifdef TESTARX
+
+#define MAIN  // ustaw na MAIN aby skompilować program docelowy / ustaw na DEBUG aby skompilować program testujacy 
+
+
+#endif // TESTPID
 
 #ifdef DEBUG
 
@@ -194,6 +197,7 @@ int main()
 int main()
 {
 	//Twój program
+	cout << "Testuje testy";
 }
 
 #endif
