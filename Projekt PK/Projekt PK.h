@@ -4,6 +4,8 @@
 #include <fstream>
 #include <vector>
 #include <iomanip>
+#include <cmath>
+#include <random>
 
 #define MAINPROJEKTU
 //MAINPROJEKTU - uruchamia main w pliku Projekt PK

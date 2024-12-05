@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\Projekt PK.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|solutionrelative:Projekt PK.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\Projekt PK.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|solutionrelative:Projekt PK.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -19,10 +23,6 @@
       "RelativeMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|solutionrelative:ModelARX.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\Projekt PK.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|solutionrelative:Projekt PK.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\RegulatorPID.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|solutionrelative:RegulatorPID.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -34,17 +34,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Projekt PK.h",
               "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\Projekt PK.h",
               "RelativeDocumentMoniker": "Projekt PK.h",
               "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\Projekt PK.h",
               "RelativeToolTip": "Projekt PK.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-05T17:28:53.177Z",
               "IsPinned": true,
@@ -65,7 +65,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Testy_PID.cpp",
               "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\Testy_PID.cpp",
               "RelativeDocumentMoniker": "Testy_PID.cpp",
@@ -78,7 +78,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ModelARX.h",
               "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\ModelARX.h",
               "RelativeDocumentMoniker": "ModelARX.h",
@@ -91,20 +91,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Testy_ARX.cpp",
               "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\Testy_ARX.cpp",
               "RelativeDocumentMoniker": "Testy_ARX.cpp",
               "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\Testy_ARX.cpp",
               "RelativeToolTip": "Testy_ARX.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMQAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-05T17:14:48.692Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Projekt PK.cpp",
               "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\Projekt PK.cpp",
               "RelativeDocumentMoniker": "Projekt PK.cpp",
