@@ -7,20 +7,20 @@
       "RelativeMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|solutionrelative:Projekt PK.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\ModelARX.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|solutionrelative:ModelARX.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\ModelARX.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|solutionrelative:ModelARX.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\Projekt PK.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|solutionrelative:Projekt PK.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\RegulatorPID.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|solutionrelative:RegulatorPID.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\Projekt PK.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|solutionrelative:Projekt PK.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\ModelARX.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|solutionrelative:ModelARX.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\ModelARX.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|solutionrelative:ModelARX.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,13 +34,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Projekt PK.h",
               "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\Projekt PK.h",
               "RelativeDocumentMoniker": "Projekt PK.h",
               "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\Projekt PK.h",
               "RelativeToolTip": "Projekt PK.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-05T17:28:53.177Z",
               "IsPinned": true,
@@ -48,7 +48,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "RegulatorPID.h",
               "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\RegulatorPID.h",
               "RelativeDocumentMoniker": "RegulatorPID.h",
@@ -61,7 +61,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ModelARX.h",
               "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\ModelARX.h",
               "RelativeDocumentMoniker": "ModelARX.h",
@@ -74,13 +74,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ModelARX.cpp",
               "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\ModelARX.cpp",
               "RelativeDocumentMoniker": "ModelARX.cpp",
               "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\ModelARX.cpp",
               "RelativeToolTip": "ModelARX.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-05T19:47:12.624Z",
               "EditorCaption": ""
@@ -91,9 +91,9 @@
               "Title": "Projekt PK.cpp",
               "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\Projekt PK.cpp",
               "RelativeDocumentMoniker": "Projekt PK.cpp",
-              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\Projekt PK.cpp*",
-              "RelativeToolTip": "Projekt PK.cpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\Projekt PK.cpp",
+              "RelativeToolTip": "Projekt PK.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-05T15:15:07.764Z",
               "EditorCaption": ""
