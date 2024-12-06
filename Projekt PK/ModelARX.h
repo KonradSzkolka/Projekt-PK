@@ -2,6 +2,9 @@
 
 #include "Projekt PK.h"
 
+
+
+
 class ModelARX
 {
 private:
@@ -34,5 +37,41 @@ public:
 	~ModelARX(){}
 
 	double symuluj(double sym);
+
+};
+
+class ModelWejscia
+{
+private:
+	//vector<double> v_dlaA;
+	//vector<double> v_dlaB;
+	//size_t m_opuznienie;
+	//double m_odchylenie;
+	ModelARX modelARX;
+	double* w_chcewynik = nullptr;
+
+public:
+	ModelWejscia(const vector<double>& a, const vector<double>& b, size_t op, double od, double* w)
+		:modelARX(a, b, op, od), w_chcewynik(w)
+	{}
+	~ModelWejscia() {}
+
+	void setChceWynik(double* w)
+	{
+		if (w != nullptr)
+		{
+			if (*w >= 1)
+				w_chcewynik = w;
+			else
+				*w_chcewynik = 1;
+		}
+	}
+
+	double* getChceWynik() const
+	{
+		return w_chcewynik;
+	}
+
+	double oblicz(double s);
 
 };

@@ -22,3 +22,8 @@ double ModelARX::symuluj(double sym)
 
 	return ksym;
 }
+
+double ModelWejscia::oblicz(double s)
+{
+	return modelARX.symuluj(s);
+}
