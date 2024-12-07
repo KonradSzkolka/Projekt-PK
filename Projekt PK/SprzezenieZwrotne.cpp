@@ -19,10 +19,11 @@ double SprzezenieZwrotne::symuluj(double wartoscZadana, size_t liczbaIteracji) {
         aktualnaWartosc = modelARX.symuluj(sterowanie);
 
         // Debug: wypisz aktualny stan
-        std::cerr << "Iteracja: " << i
+        std::cerr << "Iteracja: " << i+1
             << ", Wartosc zadana: " << wartoœæZadana
             << ", Aktualna wartosc: " << aktualnaWartosc
             << ", Sygnal sterujacy: " << sterowanie << std::endl;
+        
     }
 
     return aktualnaWartosc; // Zwróæ koñcow¹ wartoœæ wyjœciow¹

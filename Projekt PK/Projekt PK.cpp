@@ -5,11 +5,64 @@
 
 #ifdef MAINPROJEKTU
 
-constexpr size_t ITERATIONS = 100;
+//constexpr size_t ITERATIONS = 100;
 
 int main() 
 {
+    bool nadane = true;
+    std::vector<double> A;
+    std::vector<double> B;
+    double pomocnicza = 0;
+    int czykoniecDanych = 1;
+    double wartoscZadana = 0;
 
+    size_t delay = 1;
+    double noiseStdDev = 0.01;
+    double kP = 0.5;
+    double kI = 0.1;
+    double kD = 0.05;
+
+    while (true)
+    {
+        if (nadane)
+        {
+            cout << "Jaki chcesz wynik? \t";
+            cin >> wartoscZadana;
+        }
+        while (nadane)
+        {
+            cout << "Jaka wartosc A:\t";
+            cin >> pomocnicza;
+            A.push_back(pomocnicza);
+            cout << "Jaka wartosc B:\t";
+            cin >> pomocnicza;
+            B.push_back(pomocnicza);
+            cout << "Wszystkie wartosci? ( 1 - tak, 0 - nie)\t";
+            cin >> czykoniecDanych;
+            if (czykoniecDanych == 1)
+                nadane = false;
+        }
+        ModelARX modelARX(A, B, delay, noiseStdDev);
+
+        // Konfiguracja modelu wejściowego
+        ModelWejscia modelWejscia(A, B, delay, noiseStdDev, &wartoscZadana);
+
+        // Konfiguracja regulatora PID
+
+        RegulatorPID regulatorPID(modelARX, kP, kI, kD);
+
+        // Konfiguracja sprzężenia zwrotnego
+        SprzezenieZwrotne sprzezenieZwrotne(modelARX, modelWejscia, regulatorPID);
+
+        // Symulacja
+        size_t liczbaIteracji = 100;
+        double wynik = sprzezenieZwrotne.symuluj(wartoscZadana, liczbaIteracji);
+
+        cout << "Koncowa wartosc wyjsciowa: " << wynik << endl;
+        nadane = true;
+    }
+    
+    /*
     // Konfiguracja modelu ARX
     std::vector<double> A = { -0.4 };
     std::vector<double> B = { 0.6 };
@@ -19,7 +72,7 @@ int main()
     ModelARX modelARX(A, B, delay, noiseStdDev);
 
     // Konfiguracja modelu wejściowego
-    double wartoscZadana = 1;
+    double wartoscZadana = 50;
     ModelWejscia modelWejscia(A, B, delay, noiseStdDev, &wartoscZadana);
 
     // Konfiguracja regulatora PID
@@ -36,6 +89,7 @@ int main()
     double wynik = sprzezenieZwrotne.symuluj(wartoscZadana, liczbaIteracji);
 
     std::cout << "Koncowa wartosc wyjsciowa: " << wynik << std::endl;
+    */
 
     /*vector<double> A = { -0.4,0.3,0.2,0.1 };
     vector<double> B = { 0.6,0.7,0.8,0.9 };
