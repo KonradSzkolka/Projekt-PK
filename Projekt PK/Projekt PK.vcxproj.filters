@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Projekt PK.cpp">
+    <ClCompile Include="Projekt_PK.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
     <ClCompile Include="Testy_ARX.cpp">
@@ -24,13 +24,13 @@
     <ClCompile Include="Testy_PID.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
-    <ClCompile Include="ModelARX.cpp">
+    <ClCompile Include="Model_ARX.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
-    <ClCompile Include="RegulatorPID.cpp">
+    <ClCompile Include="Regulator_PID.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
-    <ClCompile Include="SprzezenieZwrotne.cpp">
+    <ClCompile Include="Sprzezenie_Zwrotne.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
     <ClCompile Include="Test_Ukkladu.cpp">
@@ -38,19 +38,16 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="RegulatorPID.h">
+    <ClInclude Include="Regulator_PID.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
-    <ClInclude Include="ModelARX.h">
+    <ClInclude Include="Model_ARX.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
-    <ClInclude Include="Projekt PK.h">
+    <ClInclude Include="Projekt_PK.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
-    <ClInclude Include="SprzezenieZwrotne.h">
-      <Filter>Pliki nagłówkowe</Filter>
-    </ClInclude>
-    <ClInclude Include="Test_Ukkladu.h">
+    <ClInclude Include="Sprzezenie_Zwrotne.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
   </ItemGroup>

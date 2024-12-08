@@ -1,4 +1,7 @@
-#include "Test_Ukkladu.h"
+#include "Projekt_PK.h"
+#include "Model_ARX.h"
+#include "Regulator_PID.h"
+#include "Sprzezenie_Zwrotne.h"
 
 #ifdef TESTUKLADU
 
@@ -43,10 +46,10 @@ void testDLaWiecejA()
 	vector<double> a = { 0.4,-0.4,0.1,-0.1 };
 	vector<double> b = { 0.6 };
 	size_t opuzn = 1;
-	double wartzad = 1.0;
+	double wartzad = 4.0;
 
 	ModelWejscia MW(a, b, opuzn, 0.01, &wartzad);
-	RegulatorPID RPID(MW.getModel(), 1, 1, 1);
+	RegulatorPID RPID(MW.getModel(), 0.8, 0.5, 0.2);
 	SprzezenieZwrotne SPRZ(*MW.getModel(), MW, RPID);
 	double wynik = SPRZ.symuluj(100);
 	cerr << wynik;
@@ -60,10 +63,10 @@ void testDLaWiecejB()
 	vector<double> a = { 0.4 };
 	vector<double> b = { 0.6,0.5,0.4,0.3 };
 	size_t opuzn = 1;
-	double wartzad = 1.0;
+	double wartzad = 50.0;
 
 	ModelWejscia MW(a, b, opuzn, 0.01, &wartzad);
-	RegulatorPID RPID(MW.getModel(), 1, 1, 1);
+	RegulatorPID RPID(MW.getModel(), 0.8, 0.5, 0.2);
 	SprzezenieZwrotne SPRZ(*MW.getModel(), MW, RPID);
 	double wynik = SPRZ.symuluj(100);
 	cerr << wynik;
@@ -77,10 +80,10 @@ void testDLaTyleSamoAiB()
 	vector<double> a = { 0.4,-0.4,0.1,-0.1 };
 	vector<double> b = { 0.6,0.5,0.4,0.3 };
 	size_t opuzn = 1;
-	double wartzad = 1.0;
+	double wartzad = 9.0;
 
 	ModelWejscia MW(a, b, opuzn, 0.01, &wartzad);
-	RegulatorPID RPID(MW.getModel(), 1, 1, 1);
+	RegulatorPID RPID(MW.getModel(), 0.8, 0.5, 0.2);
 	SprzezenieZwrotne SPRZ(*MW.getModel(), MW, RPID);
 	double wynik = SPRZ.symuluj(100);
 	cerr << wynik;
@@ -92,9 +95,17 @@ void testDLaTyleSamoAiB()
 int main()
 {
 	testDLaMalychWspolczynnikow();
+	this_thread::sleep_for(chrono::milliseconds(2000));
+
 	testDLaInnychWartPID();
+	this_thread::sleep_for(chrono::milliseconds(2000));
+
 	testDLaWiecejA();
+	this_thread::sleep_for(chrono::milliseconds(2000));
+
 	testDLaWiecejB();
+	this_thread::sleep_for(chrono::milliseconds(2000));
+
 	testDLaTyleSamoAiB();
 }
 

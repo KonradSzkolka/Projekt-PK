@@ -1,6 +1,6 @@
 // TU includy:
 
-#include "ModelARX.h"
+#include "Model_ARX.h"
 
 #ifdef TESTARX
 

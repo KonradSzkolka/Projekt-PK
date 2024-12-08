@@ -127,20 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ModelARX.cpp" />
-    <ClCompile Include="Projekt PK.cpp" />
-    <ClCompile Include="RegulatorPID.cpp" />
-    <ClCompile Include="SprzezenieZwrotne.cpp" />
+    <ClCompile Include="Model_ARX.cpp" />
+    <ClCompile Include="Projekt_PK.cpp" />
+    <ClCompile Include="Regulator_PID.cpp" />
+    <ClCompile Include="Sprzezenie_Zwrotne.cpp" />
     <ClCompile Include="Testy_ARX.cpp" />
     <ClCompile Include="Testy_PID.cpp" />
     <ClCompile Include="Test_Ukkladu.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ModelARX.h" />
-    <ClInclude Include="Projekt PK.h" />
-    <ClInclude Include="RegulatorPID.h" />
-    <ClInclude Include="SprzezenieZwrotne.h" />
-    <ClInclude Include="Test_Ukkladu.h" />
+    <ClInclude Include="Model_ARX.h" />
+    <ClInclude Include="Projekt_PK.h" />
+    <ClInclude Include="Regulator_PID.h" />
+    <ClInclude Include="Sprzezenie_Zwrotne.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
