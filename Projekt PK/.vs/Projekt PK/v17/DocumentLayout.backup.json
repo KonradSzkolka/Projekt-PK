@@ -1,50 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\korek\\source\\repos\\Projekt-PK\\Projekt PK\\",
+  "WorkspaceRootPath": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|C:\\Users\\korek\\source\\repos\\Projekt-PK\\Projekt PK\\SprzezenieZwrotne.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\SprzezenieZwrotne.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|solutionrelative:SprzezenieZwrotne.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|C:\\Users\\korek\\source\\repos\\Projekt-PK\\Projekt PK\\Test_Ukkladu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|solutionrelative:Test_Ukkladu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|C:\\Users\\korek\\source\\repos\\Projekt-PK\\Projekt PK\\Testy_PID.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|solutionrelative:Testy_PID.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|C:\\Users\\korek\\source\\repos\\Projekt-PK\\Projekt PK\\ModelARX.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|solutionrelative:ModelARX.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|C:\\Users\\korek\\source\\repos\\Projekt-PK\\Projekt PK\\Projekt PK.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\Projekt PK.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|solutionrelative:Projekt PK.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|C:\\Users\\korek\\source\\repos\\Projekt-PK\\Projekt PK\\RegulatorPID.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|solutionrelative:RegulatorPID.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|C:\\Users\\korek\\source\\repos\\Projekt-PK\\Projekt PK\\RegulatorPID.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|solutionrelative:RegulatorPID.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|C:\\Users\\korek\\source\\repos\\Projekt-PK\\Projekt PK\\Projekt PK.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\Projekt PK.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|solutionrelative:Projekt PK.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|C:\\Users\\korek\\source\\repos\\Projekt-PK\\Projekt PK\\SprzezenieZwrotne.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\Test_Ukkladu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|solutionrelative:Test_Ukkladu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\SprzezenieZwrotne.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|solutionrelative:SprzezenieZwrotne.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|C:\\Users\\korek\\source\\repos\\Projekt-PK\\Projekt PK\\ModelARX.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|solutionrelative:ModelARX.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|C:\\Users\\korek\\source\\repos\\Projekt-PK\\Projekt PK\\Testy_ARX.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|solutionrelative:Testy_ARX.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,30 +30,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "Projekt PK.h",
-              "DocumentMoniker": "C:\\Users\\korek\\source\\repos\\Projekt-PK\\Projekt PK\\Projekt PK.h",
+              "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\Projekt PK.h",
               "RelativeDocumentMoniker": "Projekt PK.h",
-              "ToolTip": "C:\\Users\\korek\\source\\repos\\Projekt-PK\\Projekt PK\\Projekt PK.h",
+              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\Projekt PK.h",
               "RelativeToolTip": "Projekt PK.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-05T17:28:53.177Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Projekt PK.cpp",
-              "DocumentMoniker": "C:\\Users\\korek\\source\\repos\\Projekt-PK\\Projekt PK\\Projekt PK.cpp",
+              "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\Projekt PK.cpp",
               "RelativeDocumentMoniker": "Projekt PK.cpp",
-              "ToolTip": "C:\\Users\\korek\\source\\repos\\Projekt-PK\\Projekt PK\\Projekt PK.cpp",
+              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\Projekt PK.cpp",
               "RelativeToolTip": "Projekt PK.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-05T15:15:07.764Z",
               "IsPinned": true,
@@ -85,114 +62,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Test_Ukkladu.cpp",
-              "DocumentMoniker": "C:\\Users\\korek\\source\\repos\\Projekt-PK\\Projekt PK\\Test_Ukkladu.cpp",
+              "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\Test_Ukkladu.cpp",
               "RelativeDocumentMoniker": "Test_Ukkladu.cpp",
-              "ToolTip": "C:\\Users\\korek\\source\\repos\\Projekt-PK\\Projekt PK\\Test_Ukkladu.cpp",
+              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\Test_Ukkladu.cpp",
               "RelativeToolTip": "Test_Ukkladu.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAADwv10AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-08T21:29:47.238Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Testy_PID.cpp",
-              "DocumentMoniker": "C:\\Users\\korek\\source\\repos\\Projekt-PK\\Projekt PK\\Testy_PID.cpp",
-              "RelativeDocumentMoniker": "Testy_PID.cpp",
-              "ToolTip": "C:\\Users\\korek\\source\\repos\\Projekt-PK\\Projekt PK\\Testy_PID.cpp",
-              "RelativeToolTip": "Testy_PID.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-08T21:29:43.666Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Testy_ARX.cpp",
-              "DocumentMoniker": "C:\\Users\\korek\\source\\repos\\Projekt-PK\\Projekt PK\\Testy_ARX.cpp",
-              "RelativeDocumentMoniker": "Testy_ARX.cpp",
-              "ToolTip": "C:\\Users\\korek\\source\\repos\\Projekt-PK\\Projekt PK\\Testy_ARX.cpp",
-              "RelativeToolTip": "Testy_ARX.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-08T21:00:57.942Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "SprzezenieZwrotne.cpp",
-              "DocumentMoniker": "C:\\Users\\korek\\source\\repos\\Projekt-PK\\Projekt PK\\SprzezenieZwrotne.cpp",
+              "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\SprzezenieZwrotne.cpp",
               "RelativeDocumentMoniker": "SprzezenieZwrotne.cpp",
-              "ToolTip": "C:\\Users\\korek\\source\\repos\\Projekt-PK\\Projekt PK\\SprzezenieZwrotne.cpp*",
+              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\SprzezenieZwrotne.cpp*",
               "RelativeToolTip": "SprzezenieZwrotne.cpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-06T20:26:56.108Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "SprzezenieZwrotne.h",
-              "DocumentMoniker": "C:\\Users\\korek\\source\\repos\\Projekt-PK\\Projekt PK\\SprzezenieZwrotne.h",
+              "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\SprzezenieZwrotne.h",
               "RelativeDocumentMoniker": "SprzezenieZwrotne.h",
-              "ToolTip": "C:\\Users\\korek\\source\\repos\\Projekt-PK\\Projekt PK\\SprzezenieZwrotne.h",
+              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\SprzezenieZwrotne.h",
               "RelativeToolTip": "SprzezenieZwrotne.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-06T20:26:28.687Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RegulatorPID.cpp",
-              "DocumentMoniker": "C:\\Users\\korek\\source\\repos\\Projekt-PK\\Projekt PK\\RegulatorPID.cpp",
-              "RelativeDocumentMoniker": "RegulatorPID.cpp",
-              "ToolTip": "C:\\Users\\korek\\source\\repos\\Projekt-PK\\Projekt PK\\RegulatorPID.cpp",
-              "RelativeToolTip": "RegulatorPID.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-06T20:21:07.198Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RegulatorPID.h",
-              "DocumentMoniker": "C:\\Users\\korek\\source\\repos\\Projekt-PK\\Projekt PK\\RegulatorPID.h",
-              "RelativeDocumentMoniker": "RegulatorPID.h",
-              "ToolTip": "C:\\Users\\korek\\source\\repos\\Projekt-PK\\Projekt PK\\RegulatorPID.h",
-              "RelativeToolTip": "RegulatorPID.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-06T18:44:02.826Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ModelARX.h",
-              "DocumentMoniker": "C:\\Users\\korek\\source\\repos\\Projekt-PK\\Projekt PK\\ModelARX.h",
-              "RelativeDocumentMoniker": "ModelARX.h",
-              "ToolTip": "C:\\Users\\korek\\source\\repos\\Projekt-PK\\Projekt PK\\ModelARX.h",
-              "RelativeToolTip": "ModelARX.h",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-05T17:19:47.534Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ModelARX.cpp",
-              "DocumentMoniker": "C:\\Users\\korek\\source\\repos\\Projekt-PK\\Projekt PK\\ModelARX.cpp",
-              "RelativeDocumentMoniker": "ModelARX.cpp",
-              "ToolTip": "C:\\Users\\korek\\source\\repos\\Projekt-PK\\Projekt PK\\ModelARX.cpp",
-              "RelativeToolTip": "ModelARX.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-05T19:47:12.624Z",
+              "WhenOpened": "2024-12-06T20:26:28.687Z",
               "EditorCaption": ""
             }
           ]

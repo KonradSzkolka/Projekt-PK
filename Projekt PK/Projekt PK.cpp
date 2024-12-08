@@ -23,6 +23,7 @@ int main()
     double kP = 0.5;
     double kI = 0.1;
     double kD = 0.05;
+    size_t liczbaIteracji = 100;
 
     while (true)
     {
@@ -45,27 +46,24 @@ int main()
             {
                 nadane = false;
             }
-           
-        }
-        ModelARX modelARX(A, B, delay, noiseStdDev);
 
+        }
         // Konfiguracja modelu wejściowego
         ModelWejscia modelWejscia(A, B, delay, noiseStdDev, &wartoscZadana);
 
         // Konfiguracja regulatora PID
 
-        RegulatorPID regulatorPID(modelARX, kP, kI, kD);
+        RegulatorPID regulatorPID(modelWejscia.getModel(), kP, kI, kD);
 
         // Konfiguracja sprzężenia zwrotnego
-        SprzezenieZwrotne sprzezenieZwrotne(modelARX, modelWejscia, regulatorPID);
+        SprzezenieZwrotne sprzezenieZwrotne(*modelWejscia.getModel(), modelWejscia, regulatorPID);
 
         // Symulacja
-        size_t liczbaIteracji = 100;
-        double wynik = sprzezenieZwrotne.symuluj(wartoscZadana, liczbaIteracji);
+        double wynik = sprzezenieZwrotne.symuluj(liczbaIteracji);
 
         cout << "Koncowa wartosc wyjsciowa: " << wynik << endl;
         nadane = true;
-        std::this_thread::sleep_for(std::chrono::seconds(1));
+        std::this_thread::sleep_for(std::chrono::milliseconds(500));
     }
     
     /*

@@ -6,6 +6,8 @@
 #include <iomanip>
 #include <cmath>
 #include <random>
+#include <thread>
+#include <chrono>
 
 #define TESTUKLADU
 //MAINPROJEKTU - uruchamia main w pliku Projekt PK

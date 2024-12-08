@@ -43,10 +43,6 @@ public:
 class ModelWejscia
 {
 private:
-	//vector<double> v_dlaA;
-	//vector<double> v_dlaB;
-	//size_t m_opuznienie;
-	//double m_odchylenie;
 	ModelARX modelARX;
 	double* w_chcewynik = nullptr;
 
@@ -74,8 +70,5 @@ public:
 
 	double oblicz(double s);
 
-	ModelARX* getModel() 
-	{
-		return &modelARX;
-	}
+	ModelARX* getModel();
 };

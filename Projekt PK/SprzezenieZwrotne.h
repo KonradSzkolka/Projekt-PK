@@ -15,5 +15,5 @@ public:
 
     ~SprzezenieZwrotne() {}
 
-    double symuluj(double wartoscZadana, size_t liczbaIteracji);
+    double symuluj(size_t liczbaIteracji);
 };
