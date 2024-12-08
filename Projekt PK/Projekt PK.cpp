@@ -2,6 +2,8 @@
 #include "ModelARX.h"
 #include "RegulatorPID.h"
 #include "SprzezenieZwrotne.h"
+#include <thread>
+#include <chrono>
 
 #ifdef MAINPROJEKTU
 
@@ -40,7 +42,10 @@ int main()
             cout << "Wszystkie wartosci? ( 1 - tak, 0 - nie)\t";
             cin >> czykoniecDanych;
             if (czykoniecDanych == 1)
+            {
                 nadane = false;
+            }
+           
         }
         ModelARX modelARX(A, B, delay, noiseStdDev);
 
@@ -60,6 +65,7 @@ int main()
 
         cout << "Koncowa wartosc wyjsciowa: " << wynik << endl;
         nadane = true;
+        std::this_thread::sleep_for(std::chrono::seconds(1));
     }
     
     /*
