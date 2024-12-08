@@ -1,2 +1,20 @@
+<<<<<<< Updated upstream
 ﻿  Test_Ukkladu.cpp
+=======
+﻿  ModelARX.cpp
+C:\Users\Michał\Documents\GitHub\Projekt-PK\Projekt PK\ModelARX.cpp(13,21): warning C4244: "inicjowanie": konwersja z "_Ty" do "size_t", możliwa utrata danych
+C:\Users\Michał\Documents\GitHub\Projekt-PK\Projekt PK\ModelARX.cpp(13,21): warning C4244:         with
+C:\Users\Michał\Documents\GitHub\Projekt-PK\Projekt PK\ModelARX.cpp(13,21): warning C4244:         [
+C:\Users\Michał\Documents\GitHub\Projekt-PK\Projekt PK\ModelARX.cpp(13,21): warning C4244:             _Ty=double
+C:\Users\Michał\Documents\GitHub\Projekt-PK\Projekt PK\ModelARX.cpp(13,21): warning C4244:         ]
+C:\Users\Michał\Documents\GitHub\Projekt-PK\Projekt PK\ModelARX.cpp(16,21): warning C4244: "inicjowanie": konwersja z "_Ty" do "size_t", możliwa utrata danych
+C:\Users\Michał\Documents\GitHub\Projekt-PK\Projekt PK\ModelARX.cpp(16,21): warning C4244:         with
+C:\Users\Michał\Documents\GitHub\Projekt-PK\Projekt PK\ModelARX.cpp(16,21): warning C4244:         [
+C:\Users\Michał\Documents\GitHub\Projekt-PK\Projekt PK\ModelARX.cpp(16,21): warning C4244:             _Ty=double
+C:\Users\Michał\Documents\GitHub\Projekt-PK\Projekt PK\ModelARX.cpp(16,21): warning C4244:         ]
+  Projekt PK.cpp
+  Testy_ARX.cpp
+  Testy_PID.cpp
+  Generowanie kodu...
+>>>>>>> Stashed changes
   Projekt PK.vcxproj -> C:\Users\Michał\Documents\GitHub\Projekt-PK\Projekt PK\x64\Debug\Projekt PK.exe
