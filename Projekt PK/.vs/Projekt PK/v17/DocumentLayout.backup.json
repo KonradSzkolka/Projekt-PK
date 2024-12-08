@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\ModelARX.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|solutionrelative:ModelARX.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\Test_Ukkladu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|solutionrelative:Test_Ukkladu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\RegulatorPID.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|solutionrelative:RegulatorPID.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\RegulatorPID.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|solutionrelative:RegulatorPID.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\ModelARX.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|solutionrelative:ModelARX.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\Test_Ukkladu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|solutionrelative:Test_Ukkladu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\RegulatorPID.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|solutionrelative:RegulatorPID.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AA093EAC-2826-4577-A021-98C26C87A22D}|Projekt PK.vcxproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\Projekt PK.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -82,7 +82,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "RegulatorPID.h",
               "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\RegulatorPID.h",
               "RelativeDocumentMoniker": "RegulatorPID.h",
@@ -95,26 +95,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Test_Ukkladu.cpp",
               "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\Test_Ukkladu.cpp",
               "RelativeDocumentMoniker": "Test_Ukkladu.cpp",
               "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\Test_Ukkladu.cpp",
               "RelativeToolTip": "Test_Ukkladu.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-08T20:48:33.493Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ModelARX.h",
               "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\ModelARX.h",
               "RelativeDocumentMoniker": "ModelARX.h",
               "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Projekt-PK\\Projekt PK\\ModelARX.h",
               "RelativeToolTip": "ModelARX.h",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAiwEwAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAiwDQAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-05T17:19:47.534Z",
               "EditorCaption": ""
