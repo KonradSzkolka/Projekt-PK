@@ -74,4 +74,8 @@ public:
 
 	double oblicz(double s);
 
+	ModelARX* getModel() 
+	{
+		return &modelARX;
+	}
 };
