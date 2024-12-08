@@ -25,7 +25,7 @@ double SprzezenieZwrotne::symuluj(double wartoscZadana, size_t liczbaIteracji) {
             << ", Wartosc zadana: " << wartoœæZadana
             << ", Aktualna wartosc: " << aktualnaWartosc
             << ", Sygnal sterujacy: " << sterowanie << std::endl;
-        std::this_thread::sleep_for(std::chrono::seconds(1));
+        std::this_thread::sleep_for(std::chrono::milliseconds(500));
     }
 
     return aktualnaWartosc; // Zwróæ koñcow¹ wartoœæ wyjœciow¹
