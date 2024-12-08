@@ -133,12 +133,14 @@
     <ClCompile Include="SprzezenieZwrotne.cpp" />
     <ClCompile Include="Testy_ARX.cpp" />
     <ClCompile Include="Testy_PID.cpp" />
+    <ClCompile Include="Test_Ukkladu.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ModelARX.h" />
     <ClInclude Include="Projekt PK.h" />
     <ClInclude Include="RegulatorPID.h" />
     <ClInclude Include="SprzezenieZwrotne.h" />
+    <ClInclude Include="Test_Ukkladu.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -21,5 +21,5 @@ double RegulatorPID::symuluj(double setpoint, double measuredValue) {
     double controlSignal = uP + uI + uD;
 
     // Wywo³anie modelu ARX, aby przetworzy³ sygna³ steruj¹cy
-    return m_model.symuluj(controlSignal);
+    return m_model->symuluj(controlSignal);
 }
