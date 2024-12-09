@@ -33,20 +33,20 @@ int main()
         }
         while (nadane)
         {
-            cout << "Jaka wartosc A(0,1):\t";
+            cout << "Jaka wartosc A przedzial(-1,1):\t";
             cin >> pomocnicza;
 
-            if(pomocnicza>0 && pomocnicza<1)
+            if(pomocnicza>-1 && pomocnicza<1)
                 A.push_back(pomocnicza);
             else
             {
                 A.push_back(0.4);
                 cerr << "\npodales za duza wartosc ustawiam 0.4\n";
             }
-            cout << "Jaka wartosc B(0,1):\t";
+            cout << "Jaka wartosc B przedzial(-1,1):\t";
             cin >> pomocnicza;
 
-            if (pomocnicza > 0 && pomocnicza < 1)
+            if (pomocnicza > -1 && pomocnicza < 1)
                 B.push_back(pomocnicza);
             else
             {
