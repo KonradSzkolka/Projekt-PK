@@ -1,2 +1,9 @@
-﻿  Projekt_PK.cpp
-  Projekt PK.vcxproj -> C:\Users\Michał\Documents\GitHub\Projekt-PK\Projekt PK\x64\Debug\Projekt PK.exe
+﻿  Model_ARX.cpp
+  Projekt_PK.cpp
+  Regulator_PID.cpp
+  Sprzezenie_Zwrotne.cpp
+  Test_Ukkladu.cpp
+  Testy_ARX.cpp
+  Testy_PID.cpp
+  Generowanie kodu...
+  Projekt PK.vcxproj -> C:\Users\korek\source\repos\Projekt-PK\Projekt PK\x64\Debug\Projekt PK.exe

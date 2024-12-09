@@ -11,7 +11,7 @@
 #include <thread>
 #include <chrono>
 
-#define MAINPROJEKTU 
+#define MAINPROJEKTU
 //MAINPROJEKTU - uruchamia main w pliku Projekt PK
 //TESTUKLADU - uruchamia testy calego ukladu UAR
 //TESTARX - uruchamia plik z testami do modelu ARX
